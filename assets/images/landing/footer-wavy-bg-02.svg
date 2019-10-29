@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="361px" viewBox="0 0 1440 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, -3432.000000)" fill="#008893" id="Contact">
+            <g transform="translate(-148.000000, 3384.000000)">
+                <path d="M1758,101.40852 L1686,156.374 L1686,409 L104,409 L104,134.145 L92.3895061,114.747036 C77.9020419,70.2632499 129.292193,48.3082065 246.559958,48.8819061 C422.461607,49.7424556 485.944188,93.124253 690.05164,101.299473 C894.159093,109.474692 1060.95102,56.6268511 1265.57131,48.8819061 C1401.98483,43.7186095 1566.12773,61.2274808 1758,101.40852 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
