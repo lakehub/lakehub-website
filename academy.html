@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>LakeHub Academy</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.css"/>
+    <link rel="stylesheet" href="https://lakehub.co.ke/dev/assets/css/style.css">
+    <!--<link rel="stylesheet" href="assets/css/style.css">-->
+    <!--<link rel="stylesheet" href="./assets/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 </head>
 <body>
 <div class="nav-container d-flex justify-content-between align-items-center wow fadeIn" data-wow-duration="1s">
     <img src="assets/images/logos/Lakehub___Academy_(colored-Horizontal).png" alt="" class="academy-logo">
 
-    <nav class="">
+    <img src="assets/images/icons/menu.png" alt="" class="menu">
+
+    <nav class="academy-nav">
         <a href="" class="academy-nav-item academy-nav-active"><span>&#60;&#62; </span>ACADEMY</a>
         <a href="" class="academy-nav-item ml-4"><span>&#60;&#62; </span>PROCESS</a>
         <a href="" class="academy-nav-item ml-4"><span>&#60;&#62; </span>ABOUT</a>
@@ -27,13 +33,32 @@
     </nav>
 </div>
 
-<img src="assets/images/landing/carousel-banner-full-resized.png" alt="" class="slider-img wow zoomIn" data-wow-duration="1s">
+<nav class="d-none flex-column academy-nav-sm position-fixed">
+    <div class="w-100 d-flex justify-content-between">
+        <img src="assets/images/logos/Lakehub___Academy_(colored-Horizontal).png" alt="" class="academy-logo">
+        <img src="assets/images/icons/close.png" alt="" class="close">
+    </div>
+    <a href="" class="academy-nav-item-sm academy-nav-active-sm mt-4">ACADEMY</a>
+    <a href="" class="academy-nav-item-sm mt-3">PROCESS</a>
+    <a href="" class="academy-nav-item-sm mt-3">ABOUT</a>
+    <a href="" class="academy-nav-item-sm mt-3">TEAM</a>
+    <a href="" class="academy-nav-item-sm mt-3">CONTACT US</a>
+    <a href="" class="academy-nav-item-sm mt-3">
+        <button class="btn-nav">Apply Now</button>
+    </a>
+</nav>
+
+<img src="assets/images/landing/carousel-banner-full-resized.png" alt="" class="slider-img wow zoomIn"
+     data-wow-duration="1s">
 <div class="slider-overlay d-flex justify-content-center align-items-center flex-column">
-    <div class="color-orange academy-landing-title w-100 text-center wow zoomIn" data-wow-duration="1s">Developing Hard Core Engineers</div>
+    <div class="color-orange academy-landing-title w-100 text-center wow zoomIn" data-wow-duration="1s">Developing Hard
+        Core Engineers
+    </div>
     <div class="color-orange academy-landing-title-2 w-100 text-center wow zoomIn   " data-wow-duration="1s">
         to power Africa's Fourth Industrial Revolution
     </div>
-    <div class="text-white academy-landing-sub-title wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+    <div class="text-white academy-landing-sub-title wow zoomIn text-center" data-wow-duration="0.5s"
+         data-wow-delay="0.5s">
         Quantify your tech skills, grow in your role and stay relevant in the tech industry.
     </div>
 </div>
@@ -48,26 +73,40 @@
 <div class="slider-text-container bg-orange">
     <div class="row m-0 h-100">
         <div class="col-1 h-100 d-flex justify-content-center align-items-center btn-prev">
-            <img class="slider-control" src="assets/images/icons/chevron-left.png"/>
+            <img class="slider-control ml-3 ml-md-0" src="assets/images/icons/chevron-left.png"/>
         </div>
         <div class="col-10">
             <div class="my-slider">
                 <div>
-                    <div class="slider-text-title text-white">Javascript Full-Stack Development</div>
-                    <div class="slider-text-sub-title text-white">5 months beginning 7th August</div>
-                    <div class="slider-text-sub-title text-white">Ksh50,000</div>
-                    <button class="btn-pills-white float-right btn-apply">Apply Now</button>
+                    <div class="slider-text-title text-white text-center text-lg-left mt-3 mt-lg-0">Javascript
+                        Full-Stack Development
+                    </div>
+                    <div class="slider-text-sub-title text-white text-center text-lg-left">5 months beginning 7th
+                        August
+                    </div>
+                    <div class="slider-text-sub-title text-white text-center text-lg-left">Ksh50,000</div>
+                    <button class="btn-pills-white btn-apply d-none d-lg-block float-right">Apply Now</button>
+                    <div class="d-flex justify-content-center d-lg-none">
+                        <button class="btn-pills-white btn-apply">Apply Now</button>
+                    </div>
                 </div>
                 <div>
-                    <div class="slider-text-title text-white">Javascript Full-Stack Development</div>
-                    <div class="slider-text-sub-title text-white">5 months beginning 7th August</div>
-                    <div class="slider-text-sub-title text-white">Ksh50,000</div>
-                    <button class="btn-pills-white float-right btn-apply">Apply Now</button>
+                    <div class="slider-text-title text-white text-center text-lg-left mt-3 mt-lg-0">Javascript
+                        Full-Stack Development
+                    </div>
+                    <div class="slider-text-sub-title text-white text-center text-lg-left">5 months beginning 7th
+                        August
+                    </div>
+                    <div class="slider-text-sub-title text-white text-center text-lg-left">Ksh50,000</div>
+                    <button class="btn-pills-white btn-apply d-none d-lg-block float-right">Apply Now</button>
+                    <div class="d-flex justify-content-center d-lg-none">
+                        <button class="btn-pills-white btn-apply">Apply Now</button>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="col-1 h-100 d-flex justify-content-center align-items-center btn-next">
-            <img class="slider-control" src="assets/images/icons/chevron-right.png"/>
+            <img class="slider-control mr-3 mr-md-0" src="assets/images/icons/chevron-right.png"/>
         </div>
     </div>
 </div>
@@ -105,7 +144,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 mt-5 mt-lg-0">
             <div class="d-flex align-items-center wow fadeIn" data-wow-duration="1s">
                 <img src="assets/images/icons/perform-high-tech-job-icon.svg" alt="">
                 <div class="color-dark pl-4">
@@ -136,8 +175,8 @@
 </div>
 
 <div class="roadmap mt-3 wow fadeIn" data-wow-duration="1.5s">
-    <div class="color-orange title">Our Software Engineering Roadmap</div>
-    <div class="title1 color-dark">The Making of an Effective Hard Core Engineer</div>
+    <div class="color-orange title text-center">Our Software Engineering Roadmap</div>
+    <div class="title1 color-dark text-center">The Making of an Effective Hard Core Engineer</div>
 
     <div class="mt-4">
         <div class="d-flex align-items-center">
@@ -216,32 +255,32 @@
 </div>
 
 <div class="testimonial mt-1 wow bounce" data-wow-duration="1.5s">
-    <div class="color-orange title">Testimonials</div>
-    <div class="title1 color-dark">Here is what alumni say about us</div>
+    <div class="color-orange title text-center text-lg-left">Testimonials</div>
+    <div class="title1 color-dark text-center text-lg-left">Here is what alumni say about us</div>
 
     <div class="row mt-3 m-0">
         <div class="col-lg-6">
-            <div class="d-flex">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
                 <img src="assets/images/profile/woman-in-black-and-white-striped-top-1191488.jpg" alt=""
                      class="testimonial-img">
                 <div class="text-md ml-3">
-                    <div class="font-weight-bold color-dark">Mercy Maina</div>
-                    <div class="color-gray text-xs">Develop @KenGen</div>
-                    <div class="color-dark text-sm">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">Mercy Maina</div>
+                    <div class="color-gray text-xs text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
                         Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
                         course is well designed and up to par with the industry standards.
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
-            <div class="d-flex">
+        <div class="col-lg-6 mt-5 mt-lg-0">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
                 <img src="assets/images/profile/woman-wearing-eyeglasses-773371.jpg" alt=""
                      class="testimonial-img">
                 <div class="text-md ml-3">
-                    <div class="font-weight-bold color-dark">Lucy Atieno</div>
-                    <div class="color-gray text-xs">Develop @KenGen</div>
-                    <div class="color-dark text-sm">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">Lucy Atieno</div>
+                    <div class="color-gray text-xs text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
                         Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
                         course is well designed and up to par with the industry standards.
                     </div>
@@ -249,13 +288,13 @@
             </div>
         </div>
         <div class="col-lg-6 mt-5">
-            <div class="d-flex">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
                 <img src="assets/images/profile/smiling-man-wearing-grey-crew-neck-shirt-2650090.jpg" alt=""
                      class="testimonial-img">
                 <div class="text-md ml-3">
-                    <div class="font-weight-bold color-dark">John Mwangi</div>
-                    <div class="color-gray text-xs">Develop @KenGen</div>
-                    <div class="color-dark text-sm">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">John Mwangi</div>
+                    <div class="color-gray text-xs text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
                         Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
                         course is well designed and up to par with the industry standards.
                     </div>
@@ -264,13 +303,13 @@
         </div>
 
         <div class="col-lg-6 mt-5">
-            <div class="d-flex">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
                 <img src="assets/images/profile/woman-leaning-on-wall-2472351.jpg" alt=""
                      class="testimonial-img">
                 <div class="text-md ml-3">
-                    <div class="font-weight-bold color-dark">Joy Kerubo</div>
-                    <div class="color-gray text-xs">Develop @KenGen</div>
-                    <div class="color-dark text-sm">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">Joy Kerubo</div>
+                    <div class="color-gray text-xs text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
                         Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
                         course is well designed and up to par with the industry standards.
                     </div>
@@ -301,7 +340,7 @@
                                 class="social-icon"></a>
             </div>
         </div>
-        <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-lg-4 d-flex flex-column align-items-center mt-5 mt-lg-0">
             <img src="assets/images/academy/Chris-Otta.png" alt="" class="facilitator-img">
             <div class="text-md font-weight-bold mt-2">Chris Otta</div>
             <div class="text-sm">Lead facilitator</div>
@@ -312,7 +351,7 @@
                                 class="social-icon"></a>
             </div>
         </div>
-        <div class="col-lg-4 d-flex flex-column align-items-center">
+        <div class="col-lg-4 d-flex flex-column align-items-center mt-5 mt-lg-0">
             <img src="assets/images/academy/Bernard-Adongo.png" alt="" class="facilitator-img">
             <div class="text-md font-weight-bold mt-2">Benard Adongo</div>
             <div class="text-sm">Associate facilitator</div>
@@ -331,18 +370,19 @@
     <div class="row m-0 footer pb-5">
         <div class="col-lg-4 color-dark d-flex justify-content-center">
             <div>
-                <div class="text-md">CONTACT US:</div>
-                <div class="text-md">info@lakehub.co.ke</div>
+                <div class="text-md text-center text-lg-left">CONTACT US:</div>
+                <div class="text-md text-center text-lg-left">info@lakehub.co.ke</div>
             </div>
         </div>
-        
-        <div class="col-lg-4 d-flex flex-column align-items-center">
-            <img src="assets/images/icons/siemens-parter.png" alt="">
-            <img src="assets/images/icons/pluralsight-partner.png" alt="" class="mt-3">
+
+        <div class="col-lg-4 d-flex flex-column align-items-center mt-5">
+            <img src="assets/images/icons/siemens-parter.png" alt="" class="footer-img">
+            <img src="assets/images/icons/pluralsight-partner.png" alt="" class="mt-3 footer-img">
         </div>
-        
+
         <div class="col-lg-4 d-flex justify-content-center">
-            <img src="assets/images/logos/LakeHub___Academy_(colored-Vertical).png" alt="" class="footer-logo">
+            <img src="assets/images/logos/LakeHub___Academy_(colored-Vertical).png" alt=""
+                 class="footer-logo mt-5 mt-lg-0">
         </div>
     </div>
 </footer>
@@ -351,7 +391,9 @@
 
 <script src="assets/js/wow.min.js"></script>
 <script>
-    new WOW().init();
+    new WOW({
+        mobile: false
+    }).init();
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 <script src="https://cdn.rawgit.com/vinayakjadhav/jR3DCarousel/v1.0.0/dist/jR3DCarousel.min.js"></script>

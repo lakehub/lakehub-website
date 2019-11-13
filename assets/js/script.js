@@ -15,5 +15,22 @@ $(document).on('ready', function () {
 
     $('.btn-next').on('click', function (e) {
         slider.goTo('next');
-    })
+    });
+
+    $('.menu').on('click', function (e) {
+        const nav = $('.academy-nav-sm');
+        if (nav.hasClass('d-none')) {
+            nav.removeClass("d-none");
+            nav.addClass("d-flex");
+        } else {
+            nav.removeClass("d-flex");
+            nav.addClass("d-none");
+        }
+    });
+
+    $('.close').on('click', function (e) {
+        const nav = $('.academy-nav-sm');
+        nav.removeClass("d-flex");
+        nav.addClass("d-none");
+    });
 });
