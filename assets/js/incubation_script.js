@@ -4,12 +4,11 @@ $(document).on('ready', function () {
         const nav = $('.academy-nav-sm');
         nav.removeClass("d-none");
         nav.addClass("d-flex");
-        console.log("clicked");
     });
 
-    $('.close').on('click', function (e) {
+    /*$('.close').on('click', function (e) {
         const nav = $('.academy-nav-sm');
         nav.removeClass("d-flex");
         nav.addClass("d-none");
-    });
+    });*/
 });

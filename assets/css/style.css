@@ -192,6 +192,7 @@ body {
 
 .landing-nav-container-sm {
     display: none;
+    z-index: 100;
 }
 
 .curved {
@@ -1093,7 +1094,7 @@ a.academy-nav-item > span {
 
     .landing-academy {
         width: 100%;
-        margin-top: 500px;
+        margin-top: 0;
         max-width: 100vw !important;
     }
 
