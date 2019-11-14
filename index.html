@@ -16,7 +16,7 @@
          data-wow-duration="3s">
 </div>
 
-<div class="d-flx flex-row justify-content-between position-absolute w-100 m-0 p-0">
+<div class="d-flex flex-row justify-content-between position-absolute w-100 m-0 p-0">
     <div class="landing-container">
         <img
                 class="logo-horizontal wow fadeIn"
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <nav class="incubation-nav wow fadeIn w-100 d-flex justify-content-end" data-wow-duration="1.5s"
+    <nav class="wow fadeIn w-100 d-flex justify-content-end incubation-nav" data-wow-duration="1.5s"
          data-wow-delay="0.5s">
         <a class="nav-item active pt-2 pb-3" href="#">INCUBATION</a>
         <a class="pt-2 pb-3 ml-5 nav-item" href="#">ACADEMY</a>
@@ -47,6 +47,48 @@
         <a class="pt-2 pb-3 ml-5 nav-item" href="#">CONTACT US</a>
     </nav>
 </div>
+
+<nav class="d-none flex-column academy-nav-sm position-fixed">
+    <div class="w-100 d-flex justify-content-between">
+        <img src="assets/images/logos/Lakehub___Academy_(colored-Horizontal).png" alt="" class="academy-logo">
+        <img src="assets/images/icons/close.png" alt="" class="close">
+    </div>
+    <a href="" class="academy-nav-item-sm academy-nav-active-sm mt-4">ACADEMY</a>
+    <a href="" class="academy-nav-item-sm mt-3">PROCESS</a>
+    <a href="" class="academy-nav-item-sm mt-3">ABOUT</a>
+    <a href="" class="academy-nav-item-sm mt-3">TEAM</a>
+    <a href="" class="academy-nav-item-sm mt-3">CONTACT US</a>
+    <a href="" class="academy-nav-item-sm mt-3">
+        <button class="btn-nav">Apply Now</button>
+    </a>
+</nav>
+
+<img src="assets/images/landing/carousel-image.jpg" alt="" class="landing-img-sm">
+<div class="landing-overlay">
+    <div class=" d-flex flex-column justify-content-center h-100">
+        <div class="landing-text-sm wow fadeIn w-100 text-center" data-wow-duration="2s">LAKEHUB, A</div>
+        <div class="landing-text-sm wow fadeIn w-100 text-center" data-wow-duration="1s" data-wow-delay="0.5s">
+            TECHNOLOGY
+        </div>
+        <div class="landing-text-sm wow fadeIn w-100 text-center" data-wow-duration="1s" data-wow-delay="1s">
+            INNOVATION HUB
+        </div>
+
+        <div class="wow fadeIn mt-3" data-wow-duration="1.5s" data-wow-delay="2s">
+            <div class="landing-sub-text-sm w-100 text-center">AN OPEN SPACE FOR ENTREPRENEURS,</div>
+            <div class="landing-sub-text-sm w-100 text-center">TECHNOLOGISTS, INVESTORS AND MAKERS.</div>
+        </div>
+    </div>
+</div>
+
+<div class="landing-nav-container-sm w-100">
+    <div class="d-flex pl-5 pt-3 pl-5 pr-5 justify-content-between">
+        <img src="assets/images/logos/LakeHub_Incubation_(Colored-Horizontal-Transparent).png" alt=""
+             class="incubation-logo-sm">
+        <img src="assets/images/icons/menu.png" alt="" class="incubation-menu">
+    </div>
+</div>
+
 
 <div class="landing-academy">
     <div class="row p-0 m-0">
@@ -173,7 +215,7 @@
     <!--<div class="footer-wave1"></div>-->
     <div class="footer-wave2">
         <div>
-            <h1 class="text-white text-center w-100">Contact Us</h1>
+            <h1 class="text-white text-center w-100 incubation-footer-header">Contact Us</h1>
             <div class="row m-0 pt-3">
                 <div class="col-lg-3">
                     <div class="d-flex align-items-center">
@@ -182,21 +224,21 @@
                     </div>
                     <div class="footer-text mt-2">Mega Plaza, Off Oginga Odinga Street, Kisumu, Kenya</div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mt-4 mt-lg-0">
                     <div class="d-flex align-items-center">
                         <span class="dot m-0"></span>
                         <div class="text-white footer-header">Phone:</div>
                     </div>
                     <div class="footer-text mt-2">+254712345678</div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mt-4 mt-lg-0">
                     <div class="d-flex align-items-center">
                         <span class="dot m-0"></span>
                         <div class="text-white footer-header">Email:</div>
                     </div>
                     <div class="footer-text mt-2">info@lakehub.co.ke</div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 mt-4 mt-lg-0">
                     <div class="d-flex align-items-center">
                         <span class="dot m-0"></span>
                         <div class="text-white footer-header">Postal Address:</div>
@@ -208,13 +250,17 @@
         </div>
     </div>
     <div class="p-4">
-        <div class="w-100 text-center color-blue2">&copy; 2019 Business. All Rights Reserved</div>
+        <div class="w-100 text-center color-blue2 title1">&copy; 2019 Business. All Rights Reserved</div>
     </div>
 </footer>
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 <script src="assets/js/wow.min.js"></script>
+<script src="assets/js/incubation_script.js"></script>
 <script>
-    new WOW().init();
+    new WOW({
+        mobile: false
+    }).init();
 </script>
 </body>
 </html>
