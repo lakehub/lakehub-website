@@ -495,6 +495,14 @@ a.academy-nav-item > span {
     margin-top: -70px;
 }
 
+.incubation-nav-sm {
+    z-index: 1000;
+    width: 100%;
+    background: #FFF;
+    padding: 20px;
+    height: 100vh;
+}
+
 .academy-nav-item-sm {
     font-size: 18px;
     color: #3E546C;
@@ -505,9 +513,24 @@ a.academy-nav-item > span {
     color: #FAA42D;
 }
 
+.incubation-nav-item-sm {
+    font-size: 18px;
+    color: #3E546C;
+}
+
+.incubation-nav-item-sm:hover {
+    text-decoration: none;
+    color: #0c5460;
+}
+
+.incubation-nav-active-sm {
+    text-decoration: none;
+    color: #0c5460;
+}
+
 .close {
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
 }
 
 .close:hover {
