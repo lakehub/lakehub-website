@@ -9,6 +9,16 @@ $(document).on('ready', function () {
         autoplayButtonOutput: false
     });
 
+    const testimonialSlider = tns({
+        container: '.testimonial-slider-sm',
+        slideBy: 'page',
+        autoplay: true,
+        controls: false,
+        nav: false,
+        arrowKeys: true,
+        autoplayButtonOutput: false
+    });
+
     $('.btn-prev').on('click', function (e) {
         slider.goTo('prev');
     });

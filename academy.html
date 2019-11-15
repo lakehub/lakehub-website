@@ -16,10 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 </head>
 <body>
-<div class="nav-container d-flex justify-content-between align-items-center wow fadeIn" data-wow-duration="1s">
+<div class="nav-container d-none d-lg-flex justify-content-between align-items-center wow fadeIn"
+     data-wow-duration="1s">
     <img src="assets/images/logos/Lakehub___Academy_(colored-Horizontal).png" alt="" class="academy-logo">
-
-    <img src="assets/images/icons/menu.png" alt="" class="menu">
 
     <nav class="academy-nav">
         <a href="" class="academy-nav-item academy-nav-active"><span>&#60;&#62; </span>ACADEMY</a>
@@ -48,9 +47,33 @@
     </a>
 </nav>
 
+<img src="assets/images/landing/carousel-image_landing.jpg" alt="" class="landing-img-sm">
+<div class="academy-overlay">
+    <div class=" d-flex flex-column justify-content-center h-100">
+        <div class="landing-text-sm wow fadeIn w-100 text-center pl-3 pr-3" data-wow-duration="1s"
+             data-wow-delay="0.5s">
+            Developing Hard Core Engineers to power Africa's Fourth Industrial Revolution
+        </div>
+
+        <div class="wow fadeIn mt-3" data-wow-duration="1.5s" data-wow-delay="2s">
+            <div class="landing-sub-text-sm w-100 text-center">Quantify your tech skills, grow in your role and stay
+                relevant in the tech industry.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="landing-nav-container-sm w-100 position-absolute">
+    <div class="d-flex pl-3 pt-5 pr-5 justify-content-between">
+        <img src="assets/images/logos/Lakehub___Academy_(colored-Horizontal).png" alt=""
+             class="incubation-logo-sm">
+        <img src="assets/images/icons/menu.png" alt="" class="incubation-menu">
+    </div>
+</div>
+
 <img src="assets/images/landing/carousel-banner-full-resized.png" alt="" class="slider-img wow zoomIn"
      data-wow-duration="1s">
-<div class="slider-overlay d-flex justify-content-center align-items-center flex-column">
+<div class="slider-overlay d-none d-lg-flex justify-content-center align-items-center flex-column">
     <div class="color-orange academy-landing-title w-100 text-center wow zoomIn" data-wow-duration="1s">Developing Hard
         Core Engineers
     </div>
@@ -118,27 +141,27 @@
     <div class="row mt-4">
         <div class="col-lg-6 wow fadeIn" data-wow-duration="1s">
             <div class="d-flex align-items-center">
-                <img src="assets/images/icons/master-fundamentals-icon.svg" alt="">
+                <img src="assets/images/icons/master-fundamentals-icon.svg" alt="" class="how-img">
                 <div class="color-dark pl-4">
                     <div class="title1">Master Fundamentals</div>
-                    <div class="text-md">3 months immersive learning &plus; 2 months mentorship</div>
+                    <div class="text-md text-md3">3 months immersive learning &plus; 2 months mentorship</div>
                 </div>
             </div>
 
             <div class="mt-3 wow lightSpeedIn" data-wow-delay="0.5s" data-wow-duration="0.5s">
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Thorough grounding in JavaScript programming
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Deep dive into Node.js
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Algorithmic Scripting with JavaScript
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - React for Front-end Development
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Hybrid App Development with React Native
                 </div>
             </div>
@@ -146,27 +169,27 @@
 
         <div class="col-lg-6 mt-5 mt-lg-0">
             <div class="d-flex align-items-center wow fadeIn" data-wow-duration="1s">
-                <img src="assets/images/icons/perform-high-tech-job-icon.svg" alt="">
+                <img src="assets/images/icons/perform-high-tech-job-icon.svg" alt="" class="how-img1">
                 <div class="color-dark pl-4">
-                    <div class="title1">Perform High Tech Job</div>
-                    <div class="text-md">2 years paid job placement</div>
+                    <div class="title2">Perform High Tech Job</div>
+                    <div class="text-md text-md3">2 years paid job placement</div>
                 </div>
             </div>
 
             <div class="mt-3 wow lightSpeedIn" data-wow-delay="0.5s" data-wow-duration="0.5s">
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Global high-tech full-stack JavaScript jobs
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Guidance in development of actual software solutions
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - International exposure to build up global experience
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Update best practices and modern technologies
                 </div>
-                <div class="text-md color-dark">
+                <div class="text-md color-dark text-md1">
                     - Participation in global open-source software projects
                 </div>
             </div>
@@ -175,19 +198,19 @@
 </div>
 
 <div class="roadmap mt-3 wow fadeIn" data-wow-duration="1.5s">
-    <div class="color-orange title text-center">Our Software Engineering Roadmap</div>
-    <div class="title1 color-dark text-center">The Making of an Effective Hard Core Engineer</div>
+    <div class="color-orange title text-left">Our Software Engineering Roadmap</div>
+    <div class="title1 color-dark text-left">The Making of an Effective Hard Core Engineer</div>
 
     <div class="mt-4">
         <div class="d-flex align-items-center">
-            <img src="assets/images/icons/level-one-icon.svg" alt="">
+            <img src="assets/images/icons/level-one-icon.svg" alt="" class="level-img">
             <div class="color-dark pl-4">
                 <div class="title1 color-orange">Level 1</div>
-                <div class="text-md font-weight-bold">Mastery of JavaScript</div>
+                <div class="text-md1 font-weight-bold">Mastery of JavaScript</div>
             </div>
         </div>
 
-        <div class="mt-3 text-md">
+        <div class="mt-3 text-md1">
             JavaScript is intent in taking over the developer world. We cut into the core of JavaScript, the
             foundational pillars, including functional programming and prototypal inheritance, getting you up to speed
             quickly with language. Get to learn modern JavaScript (ES6) , appreciate the browser, Web technologies and
@@ -199,14 +222,14 @@
 
     <div class="mt-5">
         <div class="d-flex align-items-center">
-            <img src="assets/images/icons/level-two-icon.svg" alt="">
+            <img src="assets/images/icons/level-two-icon.svg" alt="" class="level-img">
             <div class="color-dark pl-4">
                 <div class="title1 color-orange">Level 2</div>
-                <div class="text-md font-weight-bold">Deep dive into Node.js</div>
+                <div class="text-md1 font-weight-bold">Deep dive into Node.js</div>
             </div>
         </div>
 
-        <div class="mt-3 text-md">
+        <div class="mt-3 text-md1">
             We explore the JavaScript runtime environment outside the browser context, the Node.js platform. Get a solid
             grasp of main Node.js concepts including its event-driven architecture capable of asynchronicity, modules,
             the Node Package Manager (NPM), package files and semantic versioning. Leveraging the power of Node.js,
@@ -218,14 +241,14 @@
 
     <div class="mt-5">
         <div class="d-flex align-items-center">
-            <img src="assets/images/icons/level-three-icon.svg" alt="">
+            <img src="assets/images/icons/level-three-icon.svg" alt="" class="level-img">
             <div class="color-dark pl-4">
                 <div class="title1 color-orange">Level 3</div>
-                <div class="text-md font-weight-bold">Data Structures and Algorithms</div>
+                <div class="text-md1 font-weight-bold">Data Structures and Algorithms</div>
             </div>
         </div>
 
-        <div class="mt-3 text-md">
+        <div class="mt-3 text-md1">
             Learn to implement various data structures, including linked lists, queues, stacks, hash tables, sets, all
             in JavaScript. Get a solid understanding of algorithm analysis to help you write maintainable and
             extensible quality software. Innovatively build on native JavaScript constructs and create object collection
@@ -236,14 +259,14 @@
 
     <div class="mt-5">
         <div class="d-flex align-items-center">
-            <img src="assets/images/icons/level-four-icon.svg" alt="">
+            <img src="assets/images/icons/level-four-icon.svg" alt="" class="level-img">
             <div class="color-dark pl-4">
                 <div class="title1 color-orange">Level 4</div>
-                <div class="text-md font-weight-bold">Android and iOS App Developmen</div>
+                <div class="text-md1 font-weight-bold">Android and iOS App Developmen</div>
             </div>
         </div>
 
-        <div class="mt-3 text-md">
+        <div class="mt-3 text-md1">
             By this level, the engineers will be able to design and build scalable Web applications in JavaScript and
             the React library at moment's notice. Armed with this knowledge, we utilize React's design pattern in React
             Native to build cross-platform mobile apps using on JavaScript. Explore React Native's diverse ecosystem,
@@ -258,7 +281,7 @@
     <div class="color-orange title text-center text-lg-left">Testimonials</div>
     <div class="title1 color-dark text-center text-lg-left">Here is what alumni say about us</div>
 
-    <div class="row mt-3 m-0">
+    <div class="row mt-3 m-0 testimonial-slider">
         <div class="col-lg-6">
             <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
                 <img src="assets/images/profile/woman-in-black-and-white-striped-top-1191488.jpg" alt=""
@@ -317,12 +340,72 @@
             </div>
         </div>
     </div>
+
+    <div class="testimonial-slider-sm mt-3">
+        <div class="">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
+                <img src="assets/images/profile/woman-in-black-and-white-striped-top-1191488.jpg" alt=""
+                     class="testimonial-img">
+                <div class="text-sm ml-3">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">Mercy Maina</div>
+                    <div class="color-gray text-sm text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
+                        Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
+                        course is well designed and up to par with the industry standards.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
+                <img src="assets/images/profile/woman-wearing-eyeglasses-773371.jpg" alt=""
+                     class="testimonial-img">
+                <div class="text-sm ml-3">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">Lucy Atieno</div>
+                    <div class="color-gray text-sm text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
+                        Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
+                        course is well designed and up to par with the industry standards.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
+                <img src="assets/images/profile/smiling-man-wearing-grey-crew-neck-shirt-2650090.jpg" alt=""
+                     class="testimonial-img">
+                <div class="text-sm ml-3">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">John Mwangi</div>
+                    <div class="color-gray text-sm text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
+                        Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
+                        course is well designed and up to par with the industry standards.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-start w-100">
+                <img src="assets/images/profile/woman-leaning-on-wall-2472351.jpg" alt=""
+                     class="testimonial-img">
+                <div class="text-sm ml-3">
+                    <div class="font-weight-bold color-dark text-center text-lg-left">Joy Kerubo</div>
+                    <div class="color-gray text-sm text-center text-lg-left">Develop @KenGen</div>
+                    <div class="color-dark text-sm text-center text-lg-left">
+                        Coming into LakeHub Academy, I had huge expectation and the whole experience blew me away. The
+                        course is well designed and up to par with the industry standards.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="facilitator mt-1 w-100 wow bounce" data-wow-duration="1.5s">
     <div class="color-orange title w-100 text-center">Our Facilitators</div>
     <div class="title1 color-dark w-100 text-center">Meet our skilled and experienced facilitators</div>
-    <div class="mt-2 w-100 text-center text-md">
+    <div class="mt-2 w-100 text-center text-md1">
         The course is almost entirely self-paced, with experienced developer-facilitators at hand coach, guide and
         tutor, where necessary. Regular seminars and assessments are conducted to ground the basics, to evaluate and
         course-correct.
@@ -331,7 +414,7 @@
     <div class="row m-0 pt-5">
         <div class="col-lg-4 d-flex flex-column align-items-center">
             <img src="assets/images/academy/Simeon-Obwogo.png" alt="" class="facilitator-img">
-            <div class="text-md font-weight-bold mt-2">Simeon Obwogo</div>
+            <div class="text-md1 font-weight-bold mt-2">Simeon Obwogo</div>
             <div class="text-sm">Associate facilitator</div>
 
             <div>
@@ -342,7 +425,7 @@
         </div>
         <div class="col-lg-4 d-flex flex-column align-items-center mt-5 mt-lg-0">
             <img src="assets/images/academy/Chris-Otta.png" alt="" class="facilitator-img">
-            <div class="text-md font-weight-bold mt-2">Chris Otta</div>
+            <div class="text-md1 font-weight-bold mt-2">Chris Otta</div>
             <div class="text-sm">Lead facilitator</div>
 
             <div>
@@ -353,7 +436,7 @@
         </div>
         <div class="col-lg-4 d-flex flex-column align-items-center mt-5 mt-lg-0">
             <img src="assets/images/academy/Bernard-Adongo.png" alt="" class="facilitator-img">
-            <div class="text-md font-weight-bold mt-2">Benard Adongo</div>
+            <div class="text-md1 font-weight-bold mt-2">Benard Adongo</div>
             <div class="text-sm">Associate facilitator</div>
 
             <div>
@@ -370,8 +453,8 @@
     <div class="row m-0 footer pb-5">
         <div class="col-lg-4 color-dark d-flex justify-content-center">
             <div>
-                <div class="text-md text-center text-lg-left">CONTACT US:</div>
-                <div class="text-md text-center text-lg-left">info@lakehub.co.ke</div>
+                <div class="text-md1 text-center text-lg-left">CONTACT US:</div>
+                <div class="text-md1 text-center text-lg-left">info@lakehub.co.ke</div>
             </div>
         </div>
 
